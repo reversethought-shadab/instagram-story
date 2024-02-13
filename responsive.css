@@ -211,10 +211,10 @@ main {
 }
   }
   @media (max-width: 410px) {
-    .stories-full-view .content {
-      height: 95vh;
-      max-width: 300px;
-  }
+   .stories-full-view .content {
+    height: 91vh;
+    max-width: 267px;
+}
   .stories-container .story img {
     width: 60px !important;
     object-fit: cover;
@@ -246,7 +246,7 @@ main {
   @media (max-width: 320px) {
   
   .stories-full-view .content {
-    height: 90vh;
+    height: 88vh;
     max-width: 250px;
 }
 .stories-full-view .close-btn {
