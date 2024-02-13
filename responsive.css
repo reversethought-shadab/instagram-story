@@ -42,6 +42,20 @@
   font-size: 1.1rem;
   padding: 0 30px;
 }
+.stories-full-view .author {
+  position: absolute;
+  top: 50%;
+  rotate: 90deg;
+  left: 1%;
+}
+.stories-full-view .story video {
+ 
+  border-radius: 21px;
+}
+.stories-full-view .author img {
+  height: 27px;
+  display: initial;
+}
 }
 @media (max-width: 767px) {
     .stories-full-view .content {
@@ -77,10 +91,21 @@
     padding: 0px 25px;
     width: 100%;
   }
-  .stories-full-view .author img{
-    height: 40px;
+  .stories-full-view .author img {
+    height: 19px;
+   
     display: initial;
-  }
+}
+.stories-full-view .author {
+  position: absolute;
+  top: 87px;
+  rotate: 90deg;
+  left: 4%;
+}
+.stories-full-view .story video {
+ 
+  border-radius: 21px;
+}
   .stories-full-view .close-btn {
     position: absolute;
     top: 12%;
@@ -119,11 +144,20 @@ main {
 }
   @media (max-width: 610px) {
     .stories-full-view .content {
-      height: 70vh;
+      height: 97vh;
       max-width: 533px;
-  }.stories-full-view .close-btn {
+  }
+  .stories-full-view .author {
     position: absolute;
-    top: 18%;
+    top: 11px;
+    rotate: 181deg;
+    left: 23%;
+}
+
+
+  .stories-full-view .close-btn {
+    position: absolute;
+    top: 4%;
     left: 80%;
     width: 35px;
     height: 35px;
@@ -134,15 +168,19 @@ main {
   }
   @media (max-width: 510px) {
     .stories-full-view .content {
-      height: 64vh;
-      max-width: 433px;
+      height: 100vh;
+      max-width: 346px;
   }
   .stories-full-view .close-btn {
     position: absolute;
-    top: 18%;
-    left: 80%;
+    top: 3%;
+    left: 71%;
     width: 35px;
     height: 35px;
+}
+.stories-full-view .author img {
+  height: 30px;
+  display: initial;
 }
 .stories-container .previous-btn, .stories-container .next-btn, .stories-full-view .previous-btn, .stories-full-view .next-btn {
     width: 35px;
@@ -150,8 +188,8 @@ main {
   }
   @media (max-width: 460px) {
     .stories-full-view .content {
-      height: 59vh;
-      max-width: 398px;
+      height: 100vh;
+      max-width: 302px;
   }
   .navbar-top h1 {
     width: 43%;
@@ -161,29 +199,29 @@ main {
   .stories-full-view .story video {
     height: 100%;
     width: 100%;
-  aspect-ratio: 9/16;
+  
   }
     .stories-full-view .author img {
       height: 25px;
       display: initial;
   }
   .stories-full-view .close-btn {
-    top: 25%;
-    left: 77%;
+    top: 2%;
+    left: 70%;
 }
   }
   @media (max-width: 410px) {
     .stories-full-view .content {
-      height: 44vh;
-      max-width: 283px;
+      height: 100vh;
+      max-width: 300px;
   }
   .stories-container .story img {
     width: 60px !important;
     object-fit: cover;
 }
-  .stories-full-view .close-btn {
-    top: 32%;
-    left: 70%;
+.stories-full-view .close-btn {
+  top: 2%;
+  left: 70%;
 }
   
   .stories-container .story {
@@ -192,11 +230,7 @@ main {
   .stories-container {
     padding: 0 12px;
   }
-  .stories-full-view .story video {
-    height: 100%;
-    width: 100%;
-  aspect-ratio: 9/16;
-  }
+  
   }
 
   @media (max-width: 350px) {
@@ -204,22 +238,16 @@ main {
       top: 34%;
       left: 70%;
   }
-  .stories-full-view .story video {
-    height: 100%;
-    width: 100%;
-  aspect-ratio: 9/16;
-  }
   }
   @media (max-width: 320px) {
     .stories-full-view .close-btn {
       top: 35%;
       left: 70%;
   }
-  .stories-full-view .story video {
-    height: 100%;
-    width: 100%;
-  aspect-ratio: 9/16;
-  }
+  .stories-full-view .content {
+    height: 100vh;
+    max-width: 250px;
+}
   }
 
   
