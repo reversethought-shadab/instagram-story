@@ -201,8 +201,8 @@ main {
 }
   @media (max-width: 460px) {
     .stories-full-view .content {
-      height: 100%;
-      width: 350px;
+      height: 97%;
+      width: 95%;
   }
   .navbar-top h1 {
     width: 43%;
@@ -225,8 +225,8 @@ main {
   }
   @media (max-width: 410px) {
     .stories-full-view .content {
-      height: 100%;
-      width: 350px;
+      height: 97%;
+      width: 95%;
   }
   .stories-container .story img {
     width: 60px !important;
@@ -264,8 +264,8 @@ main {
     left: 79%;
 }
 .stories-full-view .content {
-  height: 100%;
-  width: 320px;
+  height: 97%;
+  width: 95%;
 }
 .stories-full-view .author {
   position: absolute;
@@ -281,7 +281,7 @@ main {
   @media (max-width: 320px) {
     .stories-full-view .content {
       height: 100%;
-      width: 280px;
+      width: 95%;
   }
   .stories-full-view .close-btn {
     top: 14%;
