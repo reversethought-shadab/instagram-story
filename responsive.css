@@ -226,7 +226,7 @@ main {
   @media (max-width: 410px) {
     .stories-full-view .content {
       height: 78vh;
-      max-width: 225px;
+      width: 350px;
   }
   .stories-container .story img {
     width: 60px !important;
@@ -265,7 +265,7 @@ main {
 }
 .stories-full-view .content {
   height: 77vh;
-  max-width: 229px;
+  width: 320px;
 }
 .stories-full-view .author {
   position: absolute;
@@ -281,7 +281,7 @@ main {
   @media (max-width: 320px) {
     .stories-full-view .content {
       height: 74vh;
-      max-width: 212px;
+      width: 280px;
   }
   .stories-full-view .close-btn {
     top: 14%;
