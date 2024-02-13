@@ -160,7 +160,9 @@ main {
 }
   .stories-full-view .story video {
     height: 100%;
-    width: 100%;}
+    width: 100%;
+  aspect-ratio: 9/16;
+  }
     .stories-full-view .author img {
       height: 25px;
       display: initial;
@@ -190,7 +192,11 @@ main {
   .stories-container {
     padding: 0 12px;
   }
-  
+  .stories-full-view .story video {
+    height: 100%;
+    width: 100%;
+  aspect-ratio: 9/16;
+  }
   }
 
   @media (max-width: 350px) {
@@ -198,11 +204,21 @@ main {
       top: 34%;
       left: 70%;
   }
+  .stories-full-view .story video {
+    height: 100%;
+    width: 100%;
+  aspect-ratio: 9/16;
+  }
   }
   @media (max-width: 320px) {
     .stories-full-view .close-btn {
       top: 35%;
       left: 70%;
+  }
+  .stories-full-view .story video {
+    height: 100%;
+    width: 100%;
+  aspect-ratio: 9/16;
   }
   }
 
