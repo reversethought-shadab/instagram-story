@@ -168,7 +168,7 @@ main {
   }
   @media (max-width: 510px) {
     .stories-full-view .content {
-      height: 100vh;
+      height: 95vh;
       max-width: 346px;
   }
   .stories-full-view .close-btn {
@@ -188,7 +188,7 @@ main {
   }
   @media (max-width: 460px) {
     .stories-full-view .content {
-      height: 100vh;
+      height: 95vh;
       max-width: 302px;
   }
   .navbar-top h1 {
@@ -212,7 +212,7 @@ main {
   }
   @media (max-width: 410px) {
     .stories-full-view .content {
-      height: 100vh;
+      height: 95vh;
       max-width: 300px;
   }
   .stories-container .story img {
@@ -238,15 +238,20 @@ main {
       top: 34%;
       left: 70%;
   }
+  .stories-full-view .close-btn {
+    top: 5%;
+    left: 79%;
+}
   }
   @media (max-width: 320px) {
-    .stories-full-view .close-btn {
-      top: 35%;
-      left: 70%;
-  }
+  
   .stories-full-view .content {
-    height: 100vh;
+    height: 90vh;
     max-width: 250px;
+}
+.stories-full-view .close-btn {
+    top: 7%;
+    left: 75%;
 }
   }
 
