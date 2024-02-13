@@ -202,7 +202,7 @@ main {
   @media (max-width: 460px) {
     .stories-full-view .content {
       height: 97%;
-      width: 95%;
+      width: 90%;
   }
   .navbar-top h1 {
     width: 43%;
@@ -226,7 +226,7 @@ main {
   @media (max-width: 410px) {
     .stories-full-view .content {
       height: 97%;
-      width: 95%;
+      width: 90%;
   }
   .stories-container .story img {
     width: 60px !important;
@@ -265,7 +265,7 @@ main {
 }
 .stories-full-view .content {
   height: 97%;
-  width: 95%;
+  width: 90%;
 }
 .stories-full-view .author {
   position: absolute;
@@ -281,7 +281,7 @@ main {
   @media (max-width: 320px) {
     .stories-full-view .content {
       height: 100%;
-      width: 95%;
+      width: 90%;
   }
   .stories-full-view .close-btn {
     top: 14%;
